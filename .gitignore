@@ -7,3 +7,7 @@ src/
 #gulp
 
 gulpfile.js
+
+#pakage
+pakage.json
+pakage-lock.json
