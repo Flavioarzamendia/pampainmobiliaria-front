@@ -9,5 +9,5 @@ src/
 gulpfile.js
 
 #pakage
-pakage.json
-pakage-lock.json
+package-lock.json
+package.json
