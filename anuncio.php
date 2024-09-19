@@ -23,12 +23,16 @@
                 
              
 
-                <nav class="navegacion">
-                    <a href="nosotros.html">Nosotros</a>
-                    <a href="propiedades.html">Propiedades</a>
-                    <a href="blog.html">Blog</a>
-                    <a href="contacto.html">Contacto</a>
-                </nav>
+                <div class="derecha">
+                    <nav class="navegacion">
+                        <a href="nosotros.php">Nosotros</a>
+                        <a href="propiedades.php">Propiedades</a>
+                        <a href="blog.php">Blog</a>
+                        <a href="contacto.php">Contacto</a>
+                        <img src="build/img/dark-mode.svg" alt="boton dark mode" class="dark-mode-boton">
+                    </nav>
+                    
+                </div>
             </div><!--Cierre de barra-->
 
             
@@ -70,7 +74,7 @@
     </main>
     <footer class="footer seccion">
         <div class="contenedor contenedor-footer">
-            <nav class="navegacion">
+            <nav class="navegacion-footer">
                 <a href="nosotros.html">Nosotros</a>
                 <a href="propiedades.html">Propiedades</a>
                 <a href="blog.html">Blog</a>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pampa Propiedades</title>
-    <link rel="stylesheet" href="/build/css/app.css">
+    <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
 
@@ -15,20 +15,26 @@
                     <a class="logo" href="/">
                         <h2 >Pampa <span>Propiedades</span></h2>
                     </a>
+                    
                     <div class="mobile-menu">
                         <img src="build/img/barras.svg" alt="Icono de menu responsive">
+                        
                     </div>
                 </div>
                
                 
-                
+                <div class="derecha">
+                    <nav class="navegacion navegacion-p">
+                        <a href="nosotros.php">Nosotros</a>
+                        <a href="propiedades.php">Propiedades</a>
+                        <a href="blog.php">Blog</a>
+                        <a href="contacto.php">Contacto</a>
+                        <img src="build/img/dark-mode.svg" alt="boton dark mode" class="dark-mode-boton" id="dark-mode-btn">
+                    </nav>
+                    
+                </div>
 
-                <nav class="navegacion navegacion-p">
-                    <a href="nosotros.html">Nosotros</a>
-                    <a href="propiedades.html">Propiedades</a>
-                    <a href="blog.html">Blog</a>
-                    <a href="contacto.html">Contacto</a>
-                </nav>
+                
             </div><!--Cierre de barra-->
 
             <h1>Exclusividad y Estilo en Venta de Casas y Departamentos</h1>
@@ -42,7 +48,7 @@
 
         <div class="iconos-nosotros">
             <div class="icono">
-                <img src="/build/img/icono1.svg" alt="Icono de seguridad" loading="lazy">
+                <img src="build/img/icono1.svg" alt="Icono de seguridad" loading="lazy">
                 <h3>Seguridad</h3>
                 <p>
                     Seguridad Protección 24/7 con tecnología avanzada y acceso controlado.
@@ -50,7 +56,7 @@
             </div>
 
             <div class="icono">
-                <img src="/build/img/icono2.svg" alt="Icono de precios" loading="lazy">
+                <img src="build/img/icono2.svg" alt="Icono de precios" loading="lazy">
                 <h3>Precio</h3>
                 <p>
                     Propiedades de lujo a precios competitivos, sin sacrificar la calidad.
@@ -58,7 +64,7 @@
             </div>
 
             <div class="icono">
-                <img src="/build/img/icono3.svg" alt="Icono  a tiempo" loading="lazy">
+                <img src="build/img/icono3.svg" alt="Icono  a tiempo" loading="lazy">
                 <h3>A Tiempo</h3>
                 <p>
                     Cumplimos con los plazos acordados para entregar tu propiedad sin demoras.
@@ -88,15 +94,15 @@
 
                     <ul class="icono-caracteristicas">
                         <li>
-                            <img loading="lazy" src="/build/img/icono_wc.svg" alt="icono wc">
+                            <img loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
                             <p>6</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="/build/img/icono_estacionamiento.svg" alt="icono estacinamiento">
+                            <img loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacinamiento">
                             <p>3</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="/build/img/icono_dormitorio.svg" alt="icono habitaciones">
+                            <img loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono habitaciones">
                             <p>5</p>
                         </li>
                     </ul>
@@ -121,15 +127,15 @@
 
                     <ul class="icono-caracteristicas">
                         <li>
-                            <img loading="lazy" src="/build/img/icono_wc.svg" alt="icono wc">
+                            <img loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
                             <p>4</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="/build/img/icono_estacionamiento.svg" alt="icono estacinamiento">
+                            <img loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacinamiento">
                             <p>2</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="/build/img/icono_dormitorio.svg" alt="icono habitaciones">
+                            <img loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono habitaciones">
                             <p>5</p>
                         </li>
                     </ul>
@@ -154,15 +160,15 @@
 
                     <ul class="icono-caracteristicas">
                         <li>
-                            <img loading="lazy" src="/build/img/icono_wc.svg" alt="icono wc">
+                            <img loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
                             <p>8</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="/build/img/icono_estacionamiento.svg" alt="icono estacinamiento">
+                            <img loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacinamiento">
                             <p>6</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="/build/img/icono_dormitorio.svg" alt="icono habitaciones">
+                            <img loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono habitaciones">
                             <p>10</p>
                         </li>
                     </ul>
@@ -246,7 +252,7 @@
 
     <footer class="footer seccion">
         <div class="contenedor contenedor-footer">
-            <nav class="navegacion">
+            <nav class="navegacion-footer">
                 <a href="nosotros.html">Nosotros</a>
                 <a href="propiedades.html">Propiedades</a>
                 <a href="blog.html">Blog</a>
