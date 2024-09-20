@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pampa Propiedades</title>
-    <link rel="stylesheet" href="build/css/app.css">
+    <link rel="stylesheet" href="/build/css/app.css">
 </head>
 <body>
 
@@ -17,7 +17,7 @@
                     </a>
                     
                     <div class="mobile-menu">
-                        <img src="build/img/barras.svg" alt="Icono de menu responsive">
+                        <img src="/build/img/barras.svg" alt="Icono de menu responsive">
                         
                     </div>
                 </div>
@@ -29,7 +29,8 @@
                         <a href="propiedades.php">Propiedades</a>
                         <a href="blog.php">Blog</a>
                         <a href="contacto.php">Contacto</a>
-                        <img src="build/img/dark-mode.svg" alt="boton dark mode" class="dark-mode-boton" id="dark-mode-btn">
+                        <a href=""></a>
+                        <img src="/build/img/dark-mode.svg" alt="boton dark mode" class="dark-mode-boton" id="dark-mode-btn">
                     </nav>
                     
                 </div>
